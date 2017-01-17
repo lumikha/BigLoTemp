@@ -1,0 +1,86 @@
+@media only all and (min-width: 320px) and (max-width: 480px) 
+
+{
+
+	.logo img {
+	
+		width:48px;
+		height: 105px;
+	} /**the b logo**/
+
+	.h1 {
+		font-size: 36px;
+		margin: 0.70em;
+	}
+
+	.h2 {
+		font-size: 24px;
+		line-height: 26px;
+		letter-spacing: -0.87px;
+	}
+
+	/**word1, plus1, word2, plus2 and word3 are just part of the .h2 or the heading 2**/
+
+	#word1 {
+		margin-left: 0;
+	}
+
+	#word1, #plus1, #word2, #plus2, #word3 {
+		
+		margin: 0;
+		padding: 0;
+		display: block; /**removes the white space at the bottom of the**/
+	}
+
+
+	.caret_hidden {
+		visibility: visible !important;
+	}
+
+	.h3 {
+		font-size: 22px;
+		margin: 0 auto;
+		
+	} /**text: "Beta Subscription...**/
+
+	
+	.form_title {
+		font-size: 44px; 
+		line-height: 0;
+	} /**let's do this**/
+
+	
+
+	.phone_image {
+		visibility: hidden;
+	}
+
+	.form-group {
+		margin: 0;
+		margin-top: -4em;
+
+	}
+
+	input.name, .email {
+		min-width: 210px;
+		font-size: 18px;
+		line-height: 48px;
+		margin-left: 20%;
+		margin-right: 20%;
+		display: inline-block;
+
+	}
+
+
+	input.message {
+		visibility: hidden;
+	}
+
+	.footer {
+		visibility: hidden;
+		margin: 0;
+		padding:0;
+	}
+
+
+}

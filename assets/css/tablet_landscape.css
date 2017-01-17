@@ -1,0 +1,9 @@
+@media only all and (min-width: 1024px) and (max-width: 1200px)
+
+{	
+
+	.phone_image img {
+		visibility: visible;
+	}
+
+}
