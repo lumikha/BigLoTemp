@@ -11,9 +11,11 @@
 	<link rel="stylesheet" type="text/css" href="style.css"><!--main stylesheet-->
 
 	 <!--media queries-->
-    <link rel="stylesheet" type="text/css" href="assets/css/mobile_small.css"> <!--320x480-->
-    <link rel="stylesheet" type="text/css" href="assets/css/small_tablet.css"> <!--480x640-->
-     <link rel="stylesheet" type="text/css" href="assets/css/tablet_portrait.css"> <!--768x1024-->
+	<!--<link rel="stylesheet" type="text/css" href="assets/css/mobile_xs.css"> <!--max 240-->
+    <!--<link rel="stylesheet" type="text/css" href="assets/css/mobile_small.css"> <!--240-320-->
+    <!--<link rel="stylesheet" type="text/css" href="assets/css/small_tablet.css"> <!--320-480-->
+    <!--<link rel="stylesheet" type="text/css" href="assets/css/tablet_portrait.css"> <!--480-768-->
+    <!--<link rel="stylesheet" type="text/css" href="assets/css/tablet_landscape.css"> <!--768-1024-->
 
 
 </head>
@@ -22,7 +24,7 @@
 <div class="main"> <!--contains everything; rocketship background-->
 	<div class="header"> <!--.header-->
 		<div class="logo"> <!--b logo-->
-		<br>
+		
 		<p> <a href=""><img src="/BigloTemp/assets/img/logo" id="logo_b"> </a> </p><!--change this to separate images-->
 		</div> <!--end of logo-->
 
@@ -43,17 +45,17 @@
 			<div class="h3"> 
 							<p><div id="word1"> Get a beta account today &nbsp;  </div> 
 							<div id="word2"> and help us make Big Local &nbsp;</div>
-							<div id="word3"> bigger and localler. &nbsp; </div> </br> 
+							<div id="word3"> bigger and localler. &nbsp; </div> 
 							</p>
 							
 							<p><div id="word1"> Beta Subscription:&nbsp; </div>
 							<div id="word2"> $4.99/month. &nbsp; </div>
 							<div id="word3"> Forever. </div> </p>
-			</div> <br> <br> 
+			</div> <!--end of h3--> 
 			
 		</div> <!--end of header_details-->
 
-		<p><a href=""><img src="/BigloTemp/assets/img/down-arrow" id="caret"> </a> </p><!--down caret-->
+		<div class="caret_shown"><p><a href=""><img src="/BigloTemp/assets/img/down-arrow" id="caret"> </a> </p></div><!--down caret-->
 
 	</div> <!--end of .header--> 
 
@@ -69,13 +71,13 @@
 		<div class="form-group"> <!--form sign in form-->
 			
 			<form action="">
-				<div class="form_title"> Let's Do This </div> <br> <br> <br>
+				<div class="form_title"> Let's Do This </div> 
 
- 				<input type="text" class="name" name="Name" placeholder="Name*" style="width: 166px;"> &nbsp; &nbsp; &nbsp;
- 				<input type="text" class="email" name="name" placeholder="Email*" style="width: 166px;">
- 				<br><br><br>
- 				<input type="text" class="message" name="Message" placeholder="Message*" style="width: 360px;">
-  				<br> <br>
+ 				<input type="text" class="name" name="Name" placeholder="Name*""> 
+ 				<input type="text" class="email" name="name" placeholder="Email*"">
+ 				<br>
+ 				<input type="text" class="message" name="Message" placeholder="Message*"">
+  				
   				<button type="SUBMIT" value="SUBMIT"> SUBMIT </button>
 
 			</form>

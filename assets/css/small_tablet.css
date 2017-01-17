@@ -35,6 +35,7 @@
 
 	.caret_hidden {
 		visibility: visible !important;
+	
 	}
 
 	.h3 {
@@ -42,6 +43,11 @@
 		margin: 0 auto;
 		
 	} /**text: "Beta Subscription...**/
+
+	.middle_transparent {
+		position: relative;
+		top: 200px;
+	}
 
 	
 	.form_title {
@@ -52,7 +58,7 @@
 	
 
 	.phone_image {
-		visibility: hidden;
+		visibility: hidden !important;
 	}
 
 	.form-group {
