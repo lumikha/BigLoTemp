@@ -1,0 +1,88 @@
+@media only all and (min-width: 1200px)
+
+{
+	.main {
+		min-width: 1200px;
+	}
+
+	.logo img {
+		width: 7.916666666% ; /*76 / 960 = 7.916666666% */ /**  **/
+		height: 21.784776902%; /*166/762 = 21.784776902% */ /**  **/
+	}
+
+		p {
+		text-align: center;
+	} 
+
+	.h1 {
+		font-size: 275%;
+	}
+
+	.h2 {
+		font-size: 225%; /*36px/ 16*/
+		letter-spacing: -1.31px; 
+
+	}
+
+	.h3 {
+		font-size: 150%; /*24px/ 16*/
+		position: relative;
+		top: -2em;
+	}
+
+	#word1, #plus1, #word2, #plus2, #word3 {
+		display: inline-block;
+	}
+
+	.caret_hidden p {
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+
+	.caret_shown {
+		bottom: -5em;
+	}
+
+	.phone_image img {
+		visibility: visible;
+		width: 360px;
+		height: 374px;
+		position: absolute;
+		left: 15em;
+		top: 4.7em;
+	}
+
+	.form-group {
+		position: absolute;
+		left: 50%;
+	}
+
+	.form_title {
+		position: relative;
+		left: -1em;
+	}
+
+	.form-group form input.message {
+		visibility: visible;
+		height: 100%;
+		width: 477px;
+	}
+
+	button {
+		left: 10em;
+	}
+
+	.footer {
+		visibility: visible;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 120%; /*24px/ 16*/
+		color: rgba(255, 179, 15, 100);
+		text-align: center;
+		position: relative;
+		top: 18em;
+			
+	}
+
+}
+

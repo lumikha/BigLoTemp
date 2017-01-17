@@ -1,0 +1,18 @@
+@media only all and (min-width: 480px) and (max-width: 768px) 
+
+{	
+	
+	.main {
+		min-width: 480px;
+	}
+
+	.form-group {
+		margin-left: 4em;
+	}
+
+	.form_title {
+		margin-left: -2em;
+	}
+
+
+}

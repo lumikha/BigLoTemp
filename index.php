@@ -11,11 +11,12 @@
 	<link rel="stylesheet" type="text/css" href="style.css"><!--main stylesheet-->
 
 	 <!--media queries-->
-	<!--<link rel="stylesheet" type="text/css" href="assets/css/mobile_xs.css"> <!--max 240-->
-    <!--<link rel="stylesheet" type="text/css" href="assets/css/mobile_small.css"> <!--240-320-->
-    <!--<link rel="stylesheet" type="text/css" href="assets/css/small_tablet.css"> <!--320-480-->
-    <!--<link rel="stylesheet" type="text/css" href="assets/css/tablet_portrait.css"> <!--480-768-->
-    <!--<link rel="stylesheet" type="text/css" href="assets/css/tablet_landscape.css"> <!--768-1024-->
+	
+    <link rel="stylesheet" type="text/css" href="assets/css/mobile_landscape.css"> <!--480-768-->
+  	<link rel="stylesheet" type="text/css" href="assets/css/tablet_portrait.css"> <!--768-1024-->
+   	<link rel="stylesheet" type="text/css" href="assets/css/tablet_landscape.css"> <!--1024-1200-->
+   	<link rel="stylesheet" type="text/css" href="assets/css/desktop.css"> <!--1200-->
+
 
 
 </head>
@@ -61,12 +62,14 @@
 
 	<div class="middle_transparent"> <!--main content; contains the form and the iphone image-->
 
-	</div> <!--end of middle_transparent-->
-
-	<div class="middle_content">		
 		<div class="phone_image" > <!--iphone image left part of the middle container-->
 			<img src="/BigloTemp/assets/img/iphone" id="iphone">
 		</div> <!--end of iphone image-->
+
+	</div> <!--end of middle_transparent-->
+
+	<div class="middle_content">		
+		
 
 		<div class="form-group"> <!--form sign in form-->
 			

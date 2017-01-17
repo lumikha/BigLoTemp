@@ -1,7 +1,61 @@
-@media only all and (min-width: 768px) and (max-width: 1024px)
+@media only all and (min-width: 1024px) and (max-width: 1200px) 
 
-{	
+{
+
+	.main {
+		min-width: 1024px;
+	}
+
+	#word1, #plus1, #word2, #plus2, #word3 {
+	display: inline-block;
+	
+	}
+
+	.h1 {
+		font-size: 42px;
+	}
+
+	.h2 {
+		font-size: 36px;
+	}
+
+	.h3 {
+		position: relative;
+		top: -2em;
+	}
+
+	.caret_hidden p {
+		visibility: hidden;
+	}
 
 
+	.form-group form input {
+		position: relative;
+		left: 10em;
+	}
 
+	.form-group form input.message {
+		visibility: visible;
+		height: 100%;
+		width: 477px;
+		}
+
+	button {
+		margin: 0;
+		position: relative;
+		left: -9em;
+		top: 7em;
+	}
+
+
+	.footer {
+		visibility: visible;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 120%; /*24px/ 16*/
+		color: rgba(255, 179, 15, 100);
+		text-align: center;
+		position: relative;
+		top: 15em;
+			
+	}
 }
