@@ -6,8 +6,15 @@
 		min-width: 768px;
 	}
 
+		.logo img {
+
+		margin-top: 2em;
+	}
+	
 	.form-group {
-		padding-left: 2em;
+		margin: 0 auto;
+		margin-left: 15%;
+		margin-right: 15%;
 	}
 
 	.form-group form input.message {

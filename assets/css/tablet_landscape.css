@@ -3,7 +3,13 @@
 {
 
 	.main {
+
 		min-width: 1024px;
+	}
+
+	.logo img {
+
+		margin-top: 2em;
 	}
 
 	#word1, #plus1, #word2, #plus2, #word3 {
@@ -29,9 +35,11 @@
 	}
 
 
-	.form-group form input {
-		position: relative;
-		left: 10em;
+	.form-group {
+		margin: 0 auto;
+		margin-left: 20%;
+		margin-right: 20%;
+
 	}
 
 	.form-group form input.message {
@@ -41,9 +49,8 @@
 		}
 
 	button {
-		margin: 0;
+		
 		position: relative;
-		left: -9em;
 		top: 7em;
 	}
 
@@ -55,7 +62,7 @@
 		color: rgba(255, 179, 15, 100);
 		text-align: center;
 		position: relative;
-		top: 15em;
+		top: 12em;
 			
 	}
 }

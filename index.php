@@ -81,7 +81,7 @@
  				<br>
  				<input type="text" class="message" name="Message" placeholder="Message*"">
   				
-  				<button type="SUBMIT" value="SUBMIT"> SUBMIT </button>
+  				<button type="SUBMIT" value="SUBMIT"> SUBMIT </button> 
 
 			</form>
 		</div> <!--end of form group-->	

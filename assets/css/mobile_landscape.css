@@ -6,12 +6,20 @@
 		min-width: 480px;
 	}
 
+	.logo img {
+
+		margin-top: 2em;
+	}
+
 	.form-group {
+		margin: 0 auto;
 		margin-left: 4em;
 	}
 
-	.form_title {
-		margin-left: -2em;
+
+
+	.form-group form input p{
+		text-align: center;
 	}
 
 
