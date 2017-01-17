@@ -1,4 +1,4 @@
-@media only all and (min-width: 320px) and (max-width: 480px) 
+@media only all and (min-width: 240px) and (max-width: 320px) 
 
 {
 
@@ -43,10 +43,17 @@
 		
 	} /**text: "Beta Subscription...**/
 
+	.middle_transparent {
+		position: relative;
+		top: 200px;
+	}
+
 	
 	.form_title {
 		font-size: 44px; 
 		line-height: 0;
+		position: relative;
+		top: 200px;
 	} /**let's do this**/
 
 	
@@ -58,6 +65,7 @@
 	.form-group {
 		margin: 0;
 		margin-top: -4em;
+
 
 	}
 

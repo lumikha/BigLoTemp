@@ -7,7 +7,7 @@
 <head>
 	<title> BigLo</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/">
 	<link rel="stylesheet" type="text/css" href="style.css"><!--main stylesheet-->
 
 	 <!--media queries-->
@@ -81,8 +81,6 @@
 			</form>
 		</div> <!--end of form group-->	
 	</div> <!--end of middle_content-->
-
-
 
 	<div class="footer"> <!--footer-->
 		<p>&copy 2016 Atelier Lumikha</p>
