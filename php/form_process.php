@@ -1,4 +1,5 @@
 <?php 
+
 	if(isset($_POST['submit'])){
     $to = "bethanyjoycesibala@gmail.com"; // this is your Email address
     $from = $_POST['Email']; // this is the sender's Email address
@@ -10,7 +11,7 @@
    
     
 	if($checkMail) {
-    	header('Location: success.php')
+    	header('Location: success.php');
 		}
 	 else {
 		echo "Oopps! Error!";
