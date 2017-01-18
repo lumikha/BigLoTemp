@@ -27,6 +27,8 @@
 
 	button {
 		text-align: center;
+		position: relative;
+		left: -1em;
 		
 	}
 
@@ -38,8 +40,6 @@
 		text-align: center;
 		
 
-
-		
 			
 	}
 }

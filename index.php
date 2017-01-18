@@ -89,7 +89,7 @@
 	</div> <!--end of middle_content-->
 
 	<div class="footer"> <!--footer-->
-		<p>&copy 2016 Atelier Lumikha</p>
+		<p> &copy 2016 Atelier Lumikha </p>
 	</div> <!--end of footer-->
 </div> <!--end of .main-->
 
