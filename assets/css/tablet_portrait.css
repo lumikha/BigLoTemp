@@ -12,19 +12,22 @@
 	}
 	
 	.form-group {
-		margin: 0 auto;
-		margin-left: 15%;
-		margin-right: 15%;
+		text-align: center;
+
 	}
 
 	.form-group form input.message {
 		visibility: visible;
 		height: 100%;
-		width: 477px;
+		width: 65%;
+		margin-top: 2em;
+
+		
 	}
 
 	button {
-		margin-left: 16.5em;
+		text-align: center;
+		
 	}
 
 	.footer {
@@ -33,8 +36,7 @@
 		font-size: 120%; /*24px/ 16*/
 		color: rgba(255, 179, 15, 100);
 		text-align: center;
-		position: relative;
-		top: 2em;
+		
 
 
 		

@@ -1,0 +1,15 @@
+@media only all and (min-width: 600px) and (max-width: 800px)
+
+{
+
+	.form_title
+	{
+		text-align: center;
+	}
+
+	button {
+		position: relative;
+		left: 5%;
+		right: 5%;
+	}
+} 

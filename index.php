@@ -13,6 +13,7 @@
 	 <!--media queries-->
 	
     <link rel="stylesheet" type="text/css" href="assets/css/mobile_landscape.css"> <!--480-768-->
+    <link rel="stylesheet" type="text/css" href="assets/css/small_tablet_portrait.css"> <!--600-800 additional breakpoint-->
   	<link rel="stylesheet" type="text/css" href="assets/css/tablet_portrait.css"> <!--768-1024-->
    	<link rel="stylesheet" type="text/css" href="assets/css/tablet_landscape.css"> <!--1024-1200-->
    	<link rel="stylesheet" type="text/css" href="assets/css/desktop.css"> <!--1200-->
@@ -63,7 +64,7 @@
 	<div class="middle_transparent"> <!--main content; contains the form and the iphone image-->
 
 		<div class="phone_image" > <!--iphone image left part of the middle container-->
-			<img src="/BigloTemp/assets/img/iphone" id="iphone">
+			<img src="assets/img/iphone.png" id="iphone">
 		</div> <!--end of iphone image-->
 
 	</div> <!--end of middle_transparent-->

@@ -5,7 +5,7 @@ body {
 	margin-top: -1em;
 }
 .main {
-	background-image: url("assets/img/Background1.png");
+	background-image: url("assets/img/Background1.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	min-width: 321px;  /*target / context = result ==> 1440px / 960px*/ 
@@ -88,8 +88,9 @@ p {
 } /**middle container that's transparent**/
 
 .middle_content {
+	margin: 0 auto;
 	position: relative;
-	top: -15em;
+	top: -11em;
 } /**content inside the middle (transparent) div container**/
 
 .phone_image img {
@@ -98,14 +99,20 @@ p {
 } /**iphone**/
 
 .form-group {
-	position: relative;
-	top: 4em;
+	margin: 0 auto;
+	margin-left: 7%;
+	margin-right: 7%;
+	
+	
 
 } /**form as a whole**/
 
 .form_title {
 	color: rgba(1, 41, 95, 100);
-	text-align: center;
+	margin: 0 auto;
+    margin-left: 7%;
+    margin-right: 7%;
+	
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 44px; /*44px/ 16*/
 	font-weight: normal;
@@ -122,11 +129,13 @@ p {
 	border-color: rgba(125, 125, 125, 100);
     background: transparent;
     letter-spacing: 0.18px;
-    line-height: 27px;
+    line-height: 27px ;
     font-size: 18px;
+    margin: 0 auto;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 1.5em;
-    margin-left: 3em;
-    width: 210px;
+    width: 65%; /** 210 / 361 = 0.58171745152 or 58.171745152% **/
     
 
 } /**form input**/
@@ -145,6 +154,7 @@ p {
 .form-group form input.message {
 	height: 0;
 	visibility: hidden;
+	
 }
 
 button {
@@ -154,9 +164,11 @@ button {
 	border-radius: 25px; /****/
 	border: none;
 	padding: 10px 40px;
-	margin-left: 6.5em;
+	margin: 0 auto;
+    margin-left: 23%;
+    margin-right: 23%;
 	position: relative;
-	top: 4em;
+	top: 2em;
 
 } /** submit button**/
 

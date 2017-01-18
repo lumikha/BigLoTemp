@@ -45,6 +45,10 @@
 		bottom: -4em;
 	}
 
+	.middle_transparent {
+		top: 5em;
+	}
+
 
 	.phone_image img {
 		visibility: visible;
@@ -58,27 +62,38 @@
 	.form-group {
 		position: absolute;
 		left: 50%;
-		top: -5em;
+		top: -10em;
 	}
 
 	.form_title {
 		position: relative;
 		left: -1em;
+		text-align: center;
+
+	}
+
+	.form-group form input {
+		margin: 0 auto;
+		margin-left: 1em;
+		margin-top: 10%;
+		width: 166px;
+
 	}
 
 	.form-group form input.message {
 		visibility: visible;
 		height: 100%;
-		width: 477px;
+		width: 360px;
+		margin-top: 2em;
 	}
 
 	button {
-		left: 10em;
+		position: relative;
+		top: 4em;
 	}
 
-	.middle_transparent {
-		top: 5em;
-	}
+
+
 	.footer {
 		visibility: visible;
 		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;

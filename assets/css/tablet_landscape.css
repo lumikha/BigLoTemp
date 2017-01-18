@@ -42,16 +42,23 @@
 
 	}
 
+	.form_title {
+		text-align: center;
+	}
+
 	.form-group form input.message {
 		visibility: visible;
 		height: 100%;
-		width: 477px;
-		}
+		width: 65%;
+		margin-top: 2em; 
+	}
 
 	button {
-		
 		position: relative;
 		top: 7em;
+		margin: 0 auto;
+		margin-left: 35%;
+		margin-right: 35%;
 	}
 
 
@@ -62,7 +69,7 @@
 		color: rgba(255, 179, 15, 100);
 		text-align: center;
 		position: relative;
-		top: 12em;
+		top: 8em;
 			
 	}
 }
