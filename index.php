@@ -16,7 +16,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/small_tablet_portrait.css"> <!--600-800 additional breakpoint-->
   	<link rel="stylesheet" type="text/css" href="assets/css/tablet_portrait.css"> <!--768-1024-->
    	<link rel="stylesheet" type="text/css" href="assets/css/tablet_landscape.css"> <!--1024-1200-->
-   	<link rel="stylesheet" type="text/css" href="assets/css/desktop.css"> <!--1200-->
+   	<link rel="stylesheet" type="text/css" href="assets/css/desktop.css"> <!--min 1200-->
 
 
 
@@ -27,7 +27,7 @@
 	<div class="header"> <!--.header-->
 		<div class="logo"> <!--b logo-->
 		
-		<p> <a href=""><img src="assets/img/logo.png" id="logo_b"> </a> </p><!--change this to separate images-->
+		<p> <a href=""><img src="assets/img/logo.png" id="logo_b"> </a> </p>
 		</div> <!--end of logo-->
 
 		<div class="header_details"> <!--header text with <h1> to <h6>tags-->
@@ -71,18 +71,42 @@
 
 	<div class="middle_content">		
 		
+	<?php 
+	if(isset($_POST['submit'])){
+    $to = "bethanyjoycesibala@gmail.com"; // this is your Email address
+    $from = $_POST['Email']; // this is the sender's Email address
+    $Name = $_POST['Name'];
+    $subject = "Form submission";
+    $Message = $Name . " " . $Email . " wrote the following:" . "\n\n" . $_POST['Message'];
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    $checkMail = mail($to,$subject,$Message,$headers);
+   
+    
+	if($checkMail) {
+		mail($from,$subject2,$Message2,$headers2); // sends a copy of the Message to the sender
+    	echo "Mail Sent. Thank you " . $Name . ", we will contact you shortly.";
+ 		echo "Message Sent";
+		}
+	 else {
+		echo "Oopps! Error!";
+		}
+
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    }
+?>
 
 		<div class="form-group"> <!--form sign in form-->
 			
-			<form action="">
+			<form action="" method="POST">
 				<div class="form_title"> Let's Do This </div> 
 
  				<input type="text" class="name" name="Name" placeholder="Name*""> 
- 				<input type="text" class="email" name="name" placeholder="Email*"">
+ 				<input type="text" class="email" name="Email" placeholder="Email*"">
  				<br>
- 				<input type="text" class="message" name="Message" placeholder="Message*"">
+ 				<input type="text" class="Message" name="Message" placeholder="Message*"">
   				
-  				<button type="SUBMIT" value="SUBMIT"> SUBMIT </button> 
+  				<button type="submit" name="submit" value="SUBMIT"> SUBMIT </button> 
 
 			</form>
 		</div> <!--end of form group-->	
