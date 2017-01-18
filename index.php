@@ -18,7 +18,7 @@
    	<link rel="stylesheet" type="text/css" href="assets/css/tablet_landscape.css"> <!--1024-1200-->
    	<link rel="stylesheet" type="text/css" href="assets/css/desktop.css"> <!--min 1200-->
 
-
+   	<!--php scripts-->
 
 </head>
 <body>
@@ -76,15 +76,15 @@
     $to = "bethanyjoycesibala@gmail.com"; // this is your Email address
     $from = $_POST['Email']; // this is the sender's Email address
     $Name = $_POST['Name'];
-    $subject = "Form submission";
+    $subject = "Form submission from Big Local";
     $Message = $Name . " " . $Email . " wrote the following:" . "\n\n" . $_POST['Message'];
     $headers = "From:" . $from;
-    $headers2 = "From:" . $to;
     $checkMail = mail($to,$subject,$Message,$headers);
+
    
     
 	if($checkMail) {
-		mail($from,$subject2,$Message2,$headers2); // sends a copy of the Message to the sender
+		header('Location: nextpage.php');
     	echo "Mail Sent. Thank you " . $Name . ", we will contact you shortly.";
  		echo "Message Sent";
 		}
@@ -98,13 +98,14 @@
 
 		<div class="form-group"> <!--form sign in form-->
 			
-			<form action="" method="POST">
+			<form action="assets/php/form_process.php" method="POST">
+			
 				<div class="form_title"> Let's Do This </div> 
 
  				<input type="text" class="name" name="Name" placeholder="Name*""> 
  				<input type="text" class="email" name="Email" placeholder="Email*"">
  				<br>
- 				<input type="text" class="Message" name="Message" placeholder="Message*"">
+ 				<input type="text" class="message" name="Message" placeholder="Message*"">
   				
   				<button type="submit" name="submit" value="SUBMIT"> SUBMIT </button> 
 
