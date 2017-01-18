@@ -80,8 +80,6 @@
     $Message = $Name . " " . $Email . " wrote the following:" . "\n\n" . $_POST['Message'];
     $headers = "From:" . $from;
     $checkMail = mail($to,$subject,$Message,$headers);
-
-   
     
 	if($checkMail) {
 		header('Location: nextpage.php');
@@ -99,7 +97,7 @@
 		<div class="form-group"> <!--form sign in form-->
 			
 			<form action="assets/php/form_process.php" method="POST">
-			
+
 				<div class="form_title"> Let's Do This </div> 
 
  				<input type="text" class="name" name="Name" placeholder="Name*""> 
