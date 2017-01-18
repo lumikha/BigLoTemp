@@ -10,8 +10,7 @@
    
     
 	if($checkMail) {
-    	echo "Mail Sent. Thank you " . $Name . ", we will contact you shortly.";
- 		echo "Message Sent";
+    	header('Location: success.php')
 		}
 	 else {
 		echo "Oopps! Error!";
