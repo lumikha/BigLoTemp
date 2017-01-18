@@ -26,7 +26,7 @@
 	<div class="header"> <!--.header-->
 		<div class="logo"> <!--b logo-->
 		
-		<p> <a href=""><img src="/BigloTemp/assets/img/logo" id="logo_b"> </a> </p><!--change this to separate images-->
+		<p> <a href=""><img src="assets/img/logo.png" id="logo_b"> </a> </p><!--change this to separate images-->
 		</div> <!--end of logo-->
 
 		<div class="header_details"> <!--header text with <h1> to <h6>tags-->
@@ -41,7 +41,7 @@
 				</p>
 			</div> 
 			
-			<div class="caret_hidden"><p><a href=""><img src="/BigloTemp/assets/img/down-arrow" id="caret"> </a> </p> </div><!--down caret-->
+			<div class="caret_hidden"><p><a href=""><img src="assets/img/down-arrow.png" id="caret"> </a> </p> </div><!--down caret-->
 
 			<div class="h3"> 
 							<p><div id="word1"> Get a beta account today &nbsp;  </div> 
@@ -56,7 +56,7 @@
 			
 		</div> <!--end of header_details-->
 
-		<div class="caret_shown"><p><a href=""><img src="/BigloTemp/assets/img/down-arrow" id="caret"> </a> </p></div><!--down caret-->
+		<div class="caret_shown"><p><a href=""><img src="assets/img/down-arrow.png" id="caret"> </a> </p></div><!--down caret-->
 
 	</div> <!--end of .header--> 
 
