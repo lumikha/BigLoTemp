@@ -87,6 +87,9 @@
   				<button type="submit" name="submit" value="SUBMIT"> SUBMIT </button> 
 
 			</form>
+
+			<?php include 'footer.php'; ?>
+
 		</div> <!--end of form group-->	
 	</div> <!--end of middle_content-->
 
