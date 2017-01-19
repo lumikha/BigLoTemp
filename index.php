@@ -75,7 +75,7 @@
 
 		<div class="form-group"> <!--form sign in form-->
 			
-			<form action="form_process.php" method="POST">
+			<form id="biglo_form" action="form_process.php" method="POST">
 
 				<div class="form_title"> Let's Do This </div> 
 
