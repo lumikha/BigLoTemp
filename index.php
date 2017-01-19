@@ -6,6 +6,7 @@
 <html>
 <head>
 	<title> BigLo</title>
+	<link rel="Shortcut icon" href="assets/img/favicon_logo.ico"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/">
 	<link rel="stylesheet" type="text/css" href="style.css"><!--main stylesheet-->
@@ -17,6 +18,7 @@
   	<link rel="stylesheet" type="text/css" href="assets/css/tablet_portrait.css"> <!--768-1024-->
    	<link rel="stylesheet" type="text/css" href="assets/css/tablet_landscape.css"> <!--1024-1200-->
    	<link rel="stylesheet" type="text/css" href="assets/css/desktop.css"> <!--min 1200-->
+   	<link rel="stylesheet" type="text/css" href="assets/css/large_desktop.css"> <!--min 1200-->
 
    	<!--php scripts-->
 
@@ -57,11 +59,11 @@
 			
 		</div> <!--end of header_details-->
 
-		<div class="caret_shown"><p><a href=""><img src="assets/img/down-arrow.png" id="caret"> </a> </p></div><!--down caret-->
+		<div class="caret_shown"><p><a href="#middle_transparent"><img src="assets/img/down-arrow.png" id="caret"> </a> </p></div><!--down caret-->
 
 	</div> <!--end of .header--> 
 
-	<div class="middle_transparent"> <!--main content; contains the form and the iphone image-->
+	<div class="middle_transparent" id="middle_transparent"> <!--main content; contains the form and the iphone image-->
 
 		<div class="phone_image" > <!--iphone image left part of the middle container-->
 			<img src="assets/img/iphone.png" id="iphone">
@@ -69,7 +71,7 @@
 
 	</div> <!--end of middle_transparent-->
 
-	<div class="middle_content">		
+	<div class="middle_content" id="middle_content">		
 
 		<div class="form-group"> <!--form sign in form-->
 			
@@ -89,7 +91,7 @@
 	</div> <!--end of middle_content-->
 
 	<div class="footer"> <!--footer-->
-		<p> &copy 2016 Atelier Lumikha </p>
+		<p> &copy 2017 Atelier Lumikha </p>
 	</div> <!--end of footer-->
 </div> <!--end of .main-->
 

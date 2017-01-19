@@ -4,10 +4,18 @@ body {
 	padding: 0 ;
 	margin-top: -1em;
 }
+
+html {
+  	background: url(assets/img/Background1.jpg); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+} 
+
 .main {
-	background-image: url("assets/img/Background1.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
+	
 	min-width: 321px;  /*target / context = result ==> 1440px / 960px*/ 
 	height: 1497px;
 	bottom: 0;
@@ -151,12 +159,8 @@ p {
 	background-color: transparent;
 } 
 
-.form-group form input.message {
-	height: 0;
-	visibility: hidden;
-	
-}
 
+	
 button {
 	background-color: rgba(255, 179, 15, 100);
 	width: 210px 14.583333333%; /* 210 / 1440* = 14.583333333% or 210/960 = 0.21875 */ 
