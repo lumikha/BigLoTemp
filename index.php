@@ -78,11 +78,10 @@
 			<form id="biglo_form" action="form_process.php" method="POST">
 
 				<div class="form_title"> Let's Do This </div> 
-
- 				<input type="text" class="name" name="Name" placeholder="Name*""> 
- 				<input type="text" class="email" name="Email" placeholder="Email*"">
- 				<br>
- 				<input type="text" class="message" name="Message" placeholder="Message*"">
+				
+ 				<input type="text" class="name" name="Name" required="required" placeholder="Name*">
+ 				<input type="email" class="email" name="Email" required="required" placeholder="Email*"><br>
+ 				<input type="text" class="message" name="Message" required="required" placeholder="Message*">
   				
   				<button type="submit" name="submit" value="SUBMIT"> SUBMIT </button> 
 

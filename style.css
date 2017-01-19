@@ -180,5 +180,8 @@ button {
 	visibility: hidden;
 } /**footer**/
 
+.error {
+	display: block;
+}
 
 	
