@@ -44,9 +44,9 @@
 				</p>
 			</div> 
 			
-			<div class="caret_hidden"><p><a href=""><img src="assets/img/down-arrow.png" id="caret"> </a> </p> </div><!--down caret-->
+			<div class="caret_hidden"><p><a href="#h3"><img src="assets/img/down-arrow.png" id="caret"> </a> </p> </div><!--down caret-->
 
-			<div class="h3"> 
+			<div class="h3" id="h3"> 
 							<p><div id="word1"> Get a beta account today &nbsp;  </div> 
 							<div id="word2"> and help us make Big Local &nbsp;</div>
 							<div id="word3"> bigger and localler. &nbsp; </div> 
