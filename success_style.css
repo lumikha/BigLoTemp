@@ -35,11 +35,12 @@ p {
 .h1 {
 	color: rgba(255, 191, 12, 100);
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 36px; /*44px/ 16*/
+	font-size: 200%; /*44px/ 16*/
 	font-weight: normal;
 	line-height: 48px;
 	text-align: center;
-	margin-top: 5em;
+	margin-top: 10%;
+
 
 		
 } /**heading 1**/
@@ -63,5 +64,24 @@ button  {
 	visibility: hidden;
 } /**footer**/
 
+/**error page css**/
+
+.alert {
+    color: red;
+    margin-bottom: 15px;
+    padding: 20px;
+    position: relative;
+    top: 1.25em;
+}
+
+
+.middle_transparent {
+	background: rgba(255, 255, 255, 0.69);
+	/*background-color: rgba(255, 179, 15, 1);*/
+	height: 20%; /* 422 / 1497*/
+	position: relative;
+
+
+} /**middle container that's transparent**/
 
 	

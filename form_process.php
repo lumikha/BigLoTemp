@@ -14,7 +14,7 @@
     	header('Location: success.php');
 		}
 	 else {
-		echo "Oopps! Error!";
+		header('Location: error.php');
 		}
 
     // You can also use header('Location: thank_you.php'); to redirect to another page.
