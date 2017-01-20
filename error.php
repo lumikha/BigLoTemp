@@ -15,7 +15,7 @@
 
 		<div class="h1 alert">
 
-		<p> Oops! It looks like your message has  not been sent. <b> Try again. </b>  </p> 
+		<p> Oops! It looks like your message has  not been sent. <strong> Try again. </strong>  </p> 
 
 		</div>
 	</div>

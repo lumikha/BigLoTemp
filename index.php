@@ -47,14 +47,17 @@
 			<div class="caret_hidden"><p><a href="#h3"><img src="assets/img/down-arrow.png" id="caret"> </a> </p> </div><!--down caret-->
 
 			<div class="h3" id="h3"> 
-							<p><div id="word1"> Get a beta account today &nbsp;  </div> 
-							<div id="word2"> and help us make Big Local &nbsp;</div>
-							<div id="word3"> bigger and localler. &nbsp; </div> 
+							<p>
+								<div id="word1"> Get a beta account today &nbsp;  </div> 
+								<div id="word2"> and help us make Big Local &nbsp;</div>
+								<div id="word3"> bigger and localler. &nbsp; </div> 
 							</p>
 							
-							<p><div id="word1"> Beta Subscription:&nbsp; </div>
-							<div id="word2"> $4.99/month. &nbsp; </div>
-							<div id="word3"> Forever. </div> </p>
+							<p>
+								<div id="word1"> Beta Subscription:&nbsp; </div>
+								<div id="word2"> $4.99/month. &nbsp; </div>
+								<div id="word3"> Forever. </div> 
+							</p>
 			</div> <!--end of h3--> 
 			
 		</div> <!--end of header_details-->
@@ -87,7 +90,7 @@
 
 			</form>
 
-			<?php include 'footer.php'; ?>
+			<?php include 'footer.php'; ?> <!--for the js. diregard, not used as of now. for the form validation-->
 
 		</div> <!--end of form group-->	
 	</div> <!--end of middle_content-->

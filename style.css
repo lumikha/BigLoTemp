@@ -21,7 +21,7 @@ html {
 	bottom: 0;
 } /**main background**/
 
-.logo img{
+.logo img {
 	margin-top: 1em;
 	width: 48px; /*76 / 960 = 7.916666666% */ /**  **/
 	height: 105px; /*166/762 = 21.784776902% */ /**  **/
@@ -40,9 +40,6 @@ p {
 	line-height: 48px;
 	text-align: center;
 	text-transform: uppercase;
-	
-
-	
 } /**heading 1**/
 
 /**word1, plus1, word2, plus2 and word3 are just part of the .h2**/
@@ -182,6 +179,6 @@ button {
 
 .error {
 	display: block;
-}
+} /**for the form validation error**/
 
 	
