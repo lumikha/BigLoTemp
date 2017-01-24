@@ -34,13 +34,14 @@ p {
 
 .h1 {
 	color: rgba(255, 191, 12, 100);
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Montserrat-Bold;
 	font-size: 36px; /*44px/ 16*/
 	font-weight: normal;
 	line-height: 48px;
+	letter-spacing: 0;
 	text-align: center;
 	text-transform: uppercase;
-} /**heading 1**/
+} /** Big Local is Taking Off**/
 
 /**word1, plus1, word2, plus2 and word3 are just part of the .h2**/
 
@@ -51,15 +52,15 @@ p {
 
 
 .h2 {
-	color: rgba(255, 179, 15, 100);
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #FFB30F;
+	font-family: Montserrat-Bold;
 	font-size: 24px; /*36px/ 16*/
 	font-weight: normal;
 	letter-spacing: -1.31px; 
 	text-align: center;
 	
 	
-} /**heading 2**/
+} /**Business Website**/
 
 .caret_hidden p {
 	visibility: visible;
@@ -68,14 +69,14 @@ p {
 }
 
 .h3 {
-	color: rgba(255, 179, 15, 100);
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #FFB30F;
+	font-family: Montserrat-Bold;
 	font-size: 22px; /*24px/ 16*/
 	font-weight: normal;	
 	text-align: center;
 
 
-} /**heading 3**/
+} /**Get a beta account**/
 
 .caret_shown {
 	position: relative;
@@ -113,15 +114,16 @@ p {
 } /**form as a whole**/
 
 .form_title {
-	color: rgba(1, 41, 95, 100);
+	color: #01295F;
+	letter-spacing: -1.61px;
 	margin: 0 auto;
-    margin-left: 7%;
-    margin-right: 7%;
-	
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 44px; /*44px/ 16*/
+	font-family: Montserrat-Bold;
+	font-size: 40px; /*44px/ 16*/
 	font-weight: normal;
 	letter-spacing: -1.6px;
+	line-height: 48px;
+	margin-left: 7%;
+    margin-right: 7%;
 
 	
 } /**"let's do this**/
@@ -131,10 +133,11 @@ p {
 .form-group form input {
 	border: none;
 	border-bottom: 2px solid; 
-	border-color: rgba(125, 125, 125, 100);
+	color: #7D7D7D;
     background: transparent;
-    letter-spacing: 0.18px;
+    letter-spacing: 0.17px;
     line-height: 27px ;
+    font-family: Merriweather-Regular;
     font-size: 18px;
     margin: 0 auto;
     margin-left: 15%;
@@ -159,23 +162,40 @@ p {
 
 	
 button {
-	background-color: rgba(255, 179, 15, 100);
-	width: 210px 14.583333333%; /* 210 / 1440* = 14.583333333% or 210/960 = 0.21875 */ 
-	height: 48px 11.374407582%; /* 48 / 422  = 11.374407582%*/
-	border-radius: 25px; /****/
+	background: #FFB30F;
+	border-radius: 50px; /****/
 	border: none;
-	padding: 10px 40px;
+	color: #01295F;
+	font-family: Montserrat-Regular;
+	letter-spacing: 0;
+	height: 48px 11.374407582%; /* 48 / 422  = 11.374407582%*/
 	margin: 0 auto;
     margin-left: 23%;
     margin-right: 23%;
+    padding: 10px 40px;
 	position: relative;
+	width: 210px 14.583333333%; /* 210 / 1440* = 14.583333333% or 210/960 = 0.21875 */ 
 	top: 2em;
 
 } /** submit button**/
 
 .footer { 
-	visibility: hidden;
+	font-family: Merriweather-Regular;
+	font-size: 14px;
+	color: #FFB30F;
+	letter-spacing: 0;
+	line-height: 24px;
+
 } /**footer**/
+
+.footer a {
+	text-decoration: none;
+	color: rgba(255, 191, 12, 100);
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
 
 .error {
 	display: block;

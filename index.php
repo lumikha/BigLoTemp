@@ -9,6 +9,14 @@
 	<link rel="Shortcut icon" href="assets/img/favicon_logo.ico"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/">
+	<!--google fonts-->
+	
+	<link rel="stylesheet" type="text/css" href="assets/fonts/Source_Sans_Pro/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/fonts/Montserrat/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/fonts/Merriweather/style.css">
+
+
+
 	<link rel="stylesheet" type="text/css" href="style.css"><!--main stylesheet-->
 
 	 <!--media queries-->
@@ -20,7 +28,7 @@
    	<link rel="stylesheet" type="text/css" href="assets/css/desktop.css"> <!--min 1200-->
    	<link rel="stylesheet" type="text/css" href="assets/css/large_desktop.css"> <!--min 1200-->
 
-   	<!--php scripts-->
+
 
 </head>
 <body>
@@ -96,7 +104,7 @@
 	</div> <!--end of middle_content-->
 
 	<div class="footer"> <!--footer-->
-		<p> &copy 2017 Atelier Lumikha </p>
+		<p> &copy 2017 <a href="http://lumikha.co" target="_blank">Atelier Lumikha</a> </p>
 	</div> <!--end of footer-->
 </div> <!--end of .main-->
 
