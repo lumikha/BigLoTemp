@@ -63,7 +63,7 @@
 
 	.form-group {
 		position: absolute;
-		left: 50%;
+		left: 45%;
 		top: -10em;
 	}
 
@@ -92,13 +92,12 @@
 	button {
 		position: relative;
 		top: 4em;
+
 	}
-
-
 
 	.footer {
 		visibility: visible;
-		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		
 		font-size: 120%; /*24px/ 16*/
 		color: rgba(255, 179, 15, 100);
 		text-align: center;

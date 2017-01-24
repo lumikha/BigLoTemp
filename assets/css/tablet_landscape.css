@@ -55,16 +55,16 @@
 
 	button {
 		position: relative;
-		top: 7em;
+		top: 4em;
 		margin: 0 auto;
-		margin-left: 35%;
-		margin-right: 35%;
+		margin-left: 40%;
+		margin-right: 40%;
 	}
 
 
 	.footer {
 		visibility: visible;
-		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	
 		font-size: 120%; /*24px/ 16*/
 		color: rgba(255, 179, 15, 100);
 		text-align: center;
