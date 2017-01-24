@@ -5,9 +5,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> BigLo</title>
+	<title> Big Local - Smart Local Sites, Smarter Local Optimization </title>
 	<link rel="Shortcut icon" href="assets/img/favicon_logo.ico"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Next generation local online tools for small business: Sites, Listings, Reports, Social Posts.">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/">
 	<!--google fonts-->
 	
